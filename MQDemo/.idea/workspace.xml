@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ec85b4d-e8ff-410c-89d2-d479a2843242" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../RabbitMQDemo/src/main/java/Demo1/Comsumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMQDemo/src/main/java/Demo1/Producer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMQDemo/src/main/java/Demo2/RabbitMqUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMQDemo/src/main/java/Demo2/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMQDemo/src/main/java/Demo2/Work1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMQDemo/src/main/java/Demo2/Work2.java" afterDir="false" />
-    </list>
+    <list default="true" id="6ec85b4d-e8ff-410c-89d2-d479a2843242" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +34,12 @@
       <option name="presentableId" value="Default" />
       <updated>1683016562533</updated>
       <workItem from="1683016564030" duration="45000" />
+      <workItem from="1684407472256" duration="64000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1683016606968">
