@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Demo7" />
         <module name="Demo6" />
         <module name="Demo5" />
         <module name="Demo4" />
@@ -14,7 +13,11 @@
         <module name="Demo2" />
         <module name="Hellow World" />
         <module name="Demo1" />
+        <module name="Demo8" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Demo7" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

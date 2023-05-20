@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Demo8</artifactId>
+    <artifactId>Demo7</artifactId>
 
     <!--指定jdk编译版本-->
     <build>
