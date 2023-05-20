@@ -14,7 +14,6 @@
         <module name="Demo2" />
         <module name="Hellow World" />
         <module name="Demo1" />
-        <module name="Demo8" />
       </profile>
     </annotationProcessing>
   </component>
