@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Demo10" />
+        <module name="Demo14" />
+        <module name="Demo13" />
+        <module name="Demo8" />
+        <module name="Demo7" />
+        <module name="Demo6" />
+        <module name="Demo5" />
+        <module name="Demo4" />
+        <module name="Demo3" />
+        <module name="Demo2" />
+        <module name="Demo1" />
+        <module name="Hellow World" />
+        <module name="Demo9" />
+        <module name="Demo11" />
+        <module name="Demo12" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Demo1" target="8" />
+      <module name="Demo10" target="8" />
+      <module name="Demo11" target="6" />
+      <module name="Demo12" target="6" />
+      <module name="Demo13" target="6" />
+      <module name="Demo14" target="8" />
+      <module name="Demo2" target="8" />
+      <module name="Demo3" target="8" />
+      <module name="Demo4" target="8" />
+      <module name="Demo5" target="8" />
+      <module name="Demo6" target="8" />
+      <module name="Demo7" target="8" />
+      <module name="Demo8" target="7" />
+      <module name="Demo9" target="8" />
+      <module name="Hellow World" target="8" />
+      <module name="rabbitmq" target="1.5" />
+      <module name="RabbitMQProject" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

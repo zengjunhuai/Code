@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo1/Demo1.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo1/Demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo10/Demo10.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo10/Demo10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo11/Demo11.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo11/Demo11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo12/Demo12.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo12/Demo12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo13/Demo13.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo13/Demo13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo14/Demo14.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo14/Demo14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo2/Demo2.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo2/Demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo3/Demo3.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo3/Demo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo4/Demo4.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo4/Demo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo5/Demo5.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo5/Demo5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo6/Demo6.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo6/Demo6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo7/Demo7.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo7/Demo7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo8/Demo8.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo8/Demo8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Demo9/Demo9.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Demo9/Demo9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/Hellow World/Hellow World.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/Hellow World/Hellow World.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MQDemo.iml" filepath="$PROJECT_DIR$/.idea/MQDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RabbitMQProject/RabbitMQProject.iml" filepath="$PROJECT_DIR$/../RabbitMQProject/RabbitMQProject.iml" />
     </modules>
   </component>
 </project>
