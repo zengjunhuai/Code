@@ -7,7 +7,7 @@
       flowchart LR;
            Producer-->    Queue    -->Consumer;
 ```
-| <div style="width:100%">描述</div>  | 代码      | 参考文档   |
+| <div style="width:2900px">描述</div>  | 代码      | 参考文档   |
 |    :----:   |          :---: |  :---: |
 | 实现一个生产者生产消息到rabbitmq，一个消费者消费消息       | [代码](https://github.com/zengjunhuai/Code/tree/master/MQProject/RabbitMQProject/Hellow%20World "悬停显示")  | [参考文档](https://www.yuque.com/yuqueyonghu7as8iq/ptfglx/tguuvso1rbti52by) |
 
