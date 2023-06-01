@@ -19,12 +19,21 @@
         <module name="Demo2" />
         <module name="Demo1" />
         <module name="Hellow World" />
+        <module name="springboot-kafka" />
+        <module name="ActiveMQProject" />
         <module name="RocketMQProject" />
         <module name="Demo9" />
+        <module name="spark-kafka" />
         <module name="Demo11" />
         <module name="Demo12" />
+        <module name="kafka" />
         <module name="KafKaMQProject" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-kafka" options="-parameters" />
+    </option>
   </component>
 </project>
