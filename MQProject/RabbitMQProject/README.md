@@ -21,18 +21,20 @@ flowchart TD;
      B-->D;
      C-->D;
 ```
-<table>
-    <thead>
-        <tr>
-            <th>名称</th>
-            <th>值</th>
-            <th>备注</th>
-        </tr>
-    </thead>
-    <tbody>
-       <!-- 省略 tbody 内容 -->
-    </tbody>
-</table>
+<div style="width=100%">
+    <table>
+        <thead>
+            <tr>
+                <th>名称</th>
+                <th>值</th>
+                <th>备注</th>
+            </tr>
+        </thead>
+        <tbody>
+           <!-- 省略 tbody 内容 -->
+        </tbody>
+    </table>
+</div>
 
 
 
