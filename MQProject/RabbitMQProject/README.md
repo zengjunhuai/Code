@@ -44,7 +44,7 @@ flowchart TD;
 <table width="">
     <thead style="display:inline-block; width: 100%; height: 20px">
         <tr>
-            <th align="center">名称<br>
+            <th align="center">名称
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
