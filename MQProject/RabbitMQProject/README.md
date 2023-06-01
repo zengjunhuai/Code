@@ -40,20 +40,24 @@ flowchart TD;
      B-->D;
      C-->D;
 ```
-<div style="width: 1000px">
-    <table>
-        <thead>
-            <tr>
-                <th style="width: 50%">名称</th>
-                <th style="width: 25%">值</th>
-                <th style="width: 25%">备注</th>
-            </tr>
-        </thead>
-        <tbody>
-           <!-- 省略 tbody 内容 -->
-        </tbody>
-    </table>
-</div>
+
+<table style="width: 100%; display: block">
+    <thead style="display:inline-block; width: 100%; height: 20px">
+        <tr>
+            <th>名称</th>
+            <th>值</th>
+            <th>备注</th>
+        </tr>
+    </thead>
+    <tbody style="width: 100%">
+       <tr>
+           <th>名称</th>
+           <th>值</th>
+           <th>备注</th>
+       </tr>
+    </tbody>
+</table>
+
 
 
 
