@@ -41,7 +41,7 @@ flowchart TD;
      C-->D;
 ```
 <div>
-    <table style="width:100%">
+    <table style="width: auto">
         <thead>
             <tr>
                 <th >名称</th>
