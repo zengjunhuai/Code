@@ -41,12 +41,12 @@ flowchart TD;
      C-->D;
 ```
 <div>
-    <table style="width: 100%">
+    <table style="width:100%">
         <thead>
             <tr>
-                <th style="width: 50%">名称</th>
-                <th style="width: 25%">值</th>
-                <th style="width: 25%">备注</th>
+                <th >名称</th>
+                <th >值</th>
+                <th >备注</th>
             </tr>
         </thead>
         <tbody>
