@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Demo10" />
         <module name="Demo14" />
         <module name="Demo13" />
         <module name="Demo8" />
@@ -25,6 +24,7 @@
         <module name="Demo9" />
         <module name="spark-kafka" />
         <module name="Demo11" />
+        <module name="Demo10" />
         <module name="Demo12" />
         <module name="kafka" />
         <module name="KafKaMQProject" />
