@@ -40,8 +40,8 @@ flowchart TD;
      B-->D;
      C-->D;
 ```
-<div style="width:100%">
-    <table>
+<div>
+    <table width="100%">
         <thead>
             <tr>
                 <th style="width: 50%">名称</th>
