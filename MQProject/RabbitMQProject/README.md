@@ -127,9 +127,9 @@ flowchart TD;
    <o:lock v:ext="edit" aspectratio="t"/>
   </v:shapetype><v:shape id="_x0000_i1682" type="#_x0000_t75" style='width:261.75pt;
    height:48pt' o:ole="">
-   <v:imagedata src="test.files/image001.emz" o:title=""/>
+   <v:imagedata src="static.test.files/image001.emz" o:title=""/>
   </v:shape><![endif]--><![if !vml]><img width=349 height=64
-  src="test.files/image002.png" v:shapes="_x0000_i1682"><![endif]><!--[if gte mso 9]><xml>
+  src="static.test.files/image002.png" v:shapes="_x0000_i1682"><![endif]><!--[if gte mso 9]><xml>
    <o:OLEObject Type="Embed" ProgID="Visio.Drawing.15" ShapeID="_x0000_i1682"
     DrawAspect="Content" ObjectID="_1747225016">
    </o:OLEObject>
@@ -171,9 +171,9 @@ flowchart TD;
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><!--[if gte vml 1]><v:shape
    id="_x0000_i1683" type="#_x0000_t75" style='width:259.5pt;height:93pt'
    o:ole="">
-   <v:imagedata src="test.files/image003.emz" o:title=""/>
+   <v:imagedata src="static.test.files/image003.emz" o:title=""/>
   </v:shape><![endif]--><![if !vml]><img width=346 height=124
-  src="test.files/image004.png" v:shapes="_x0000_i1683"><![endif]><!--[if gte mso 9]><xml>
+  src="static.test.files/image004.png" v:shapes="_x0000_i1683"><![endif]><!--[if gte mso 9]><xml>
    <o:OLEObject Type="Embed" ProgID="Visio.Drawing.15" ShapeID="_x0000_i1683"
     DrawAspect="Content" ObjectID="_1747225017">
    </o:OLEObject>
@@ -238,9 +238,9 @@ flowchart TD;
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><!--[if gte vml 1]><v:shape
    id="_x0000_i1684" type="#_x0000_t75" style='width:228.75pt;height:34.5pt'
    o:ole="">
-   <v:imagedata src="test.files/image005.emz" o:title=""/>
+   <v:imagedata src="static.test.files/image005.emz" o:title=""/>
   </v:shape><![endif]--><![if !vml]><img border=0 width=305 height=46
-  src="test.files/image006.png" v:shapes="_x0000_i1684"><![endif]><!--[if gte mso 9]><xml>
+  src="static.test.files/image006.png" v:shapes="_x0000_i1684"><![endif]><!--[if gte mso 9]><xml>
    <o:OLEObject Type="Embed" ProgID="Visio.Drawing.15" ShapeID="_x0000_i1684"
     DrawAspect="Content" ObjectID="_1747225018">
    </o:OLEObject>
@@ -280,9 +280,9 @@ flowchart TD;
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><!--[if gte vml 1]><v:shape
    id="_x0000_i1685" type="#_x0000_t75" style='width:268.5pt;height:63pt'
    o:ole="">
-   <v:imagedata src="test.files/image007.emz" o:title=""/>
+   <v:imagedata src="static.test.files/image007.emz" o:title=""/>
   </v:shape><![endif]--><![if !vml]><img border=0 width=358 height=84
-  src="test.files/image008.png" v:shapes="_x0000_i1685"><![endif]><!--[if gte mso 9]><xml>
+  src="static.test.files/image008.png" v:shapes="_x0000_i1685"><![endif]><!--[if gte mso 9]><xml>
    <o:OLEObject Type="Embed" ProgID="Visio.Drawing.15" ShapeID="_x0000_i1685"
     DrawAspect="Content" ObjectID="_1747225019">
    </o:OLEObject>
