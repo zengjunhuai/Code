@@ -50,11 +50,13 @@ flowchart TD;
         </tr>
     </thead>
     <tbody style="width: 100%">
-       <tr>
-           <th>名称</th>
-           <th>值</th>
-           <th>备注</th>
-       </tr>
+```mermaid
+flowchart TD;
+     A-->B;
+     A-->C;
+     B-->D;
+     C-->D;
+```
     </tbody>
 </table>
 
