@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Demo10" />
         <module name="Demo14" />
         <module name="Demo13" />
         <module name="Demo8" />
@@ -17,17 +18,16 @@
         <module name="Demo3" />
         <module name="Demo2" />
         <module name="Demo1" />
-        <module name="Hellow World" />
         <module name="springboot-kafka" />
+        <module name="spark-kafka" />
         <module name="ActiveMQProject" />
         <module name="RocketMQProject" />
         <module name="Demo9" />
-        <module name="spark-kafka" />
         <module name="Demo11" />
-        <module name="Demo10" />
         <module name="Demo12" />
         <module name="kafka" />
         <module name="KafKaMQProject" />
+        <module name="Hellow World" />
       </profile>
     </annotationProcessing>
   </component>

@@ -3,7 +3,7 @@ import com.rabbitmq.client.Channel;
 import java.util.Scanner;
 
 public class Task {
-    private static final String TASK_QUEUE_NAME = "ack_queue";
+    private static final String TASK_QUEUE_NAME = "ack_queue1";
     public static void main(String[] argv) throws Exception {
         try (Channel channel = RabbitMqUtils.getChannel()) {
             channel.queueDeclare(TASK_QUEUE_NAME, false, false, false, null);
