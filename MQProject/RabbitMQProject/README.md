@@ -34,8 +34,8 @@
 * *Demo8*
 ```mermaid
       flowchart LR;
-           Producer --> Exchange_X == XA/type=direct --> Queue_QA/10s == YD --> Exchange_Y == type=direct/YD --> QD -->Consumer;
-                    --> Exchange_X == XB/type=direct --> Queue_QB/40s == YD --> Exchange_Y 
+           Producer--> Exchange_X-- XA/type=direct -->Queue_QA/10s-- YD -->Exchange_Y-- type=direct/YD -->QD -->Consumer;
+                       Exchange_X-- XB/type=direct -->Queue_QB/40s-- YD -->Exchange_Y 
 ```
 
 * *Demo9*
