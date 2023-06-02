@@ -31,6 +31,24 @@
 |    :----:   |          :---: |  :---: |
 | 生产者发送4个消息，消费者1和消费者2分别分得两个消息，并且是按照有序的一个接收一次消息      | [代码](https://github.com/zengjunhuai/Code/tree/master/MQProject/RabbitMQProject/Demo1 "悬停显示")  | [参考文档](https://www.yuque.com/yuqueyonghu7as8iq/ptfglx/meu9rhvidncelqfc) |
 
+* *Demo8*
+```mermaid
+      flowchart LR;
+           Producer -- type=direct --> Exchange_X -- XA --> Queue_QA -- YD --> Exchange_Y -- type=direct  -->Consumer;
+                                   --> Exchange_X -- XB --> Queue_QB -- YD --> Exchange_Y 
+
+* *Demo2*
+```mermaid
+      flowchart LR;
+           Producer-->    Queue    -->Consumer1;
+                          Queue    -->Consumer2;
+
+* *Demo2*
+```mermaid
+      flowchart LR;
+           Producer-->    Queue    -->Consumer1;
+                          Queue    -->Consumer2;
+
 ### *面试相关*
 
 ```mermaid
@@ -61,13 +79,13 @@ flowchart TD;
     }
     </tbody>
 </table>
-<div class='mermaid'>${    ```mermaid
-                           flowchart TD;
-                                A-->B;
-                                A-->C;
-                                B-->D;
-                                C-->D;
-                           ```}</div>
+<div class='```mermaid
+                                       flowchart TD;
+                                            A-->B;
+                                            A-->C;
+                                            B-->D;
+                                            C-->D;
+                                       ```'>${}</div>
 
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=0
