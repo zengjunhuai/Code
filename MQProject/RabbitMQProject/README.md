@@ -61,6 +61,13 @@ flowchart TD;
     }
     </tbody>
 </table>
+<div class='mermaid'>${    ```mermaid
+                           flowchart TD;
+                                A-->B;
+                                A-->C;
+                                B-->D;
+                                C-->D;
+                           ```}</div>
 
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=0
