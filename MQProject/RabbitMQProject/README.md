@@ -46,11 +46,10 @@
                        Exchange_X -- XC/type=direct -->Queue_QC-- YD -->Exchange_Y 
 ```
 
-* *Demo2*
+* *Demo10*
 ```mermaid
       flowchart LR;
-           Producer == type=direct --> Exchange_X-- XA --> Queue_QA-- YD --> Exchange_Y == type=direct/YD  -->Consumer;
-                                   --> Exchange_X-- XB --> Queue_QB-- YD --> Exchange_Y 
+           Producer-- type=x-delayed-message -->delayed.exchange-- delayed.routingkey -->delayed.queue-->Consumer;                             
 ```
 
 ### *面试相关*
