@@ -49,14 +49,16 @@ flowchart TD;
             <th>备注</th>
         </tr>
     </thead>
-    <tbody style="width: 100%">
-```mermaid
-flowchart TD;
-     A-->B;
-     A-->C;
-     B-->D;
-     C-->D;
-```
+    <tbody class='mermaid'>
+    ${
+    ```mermaid
+    flowchart TD;
+         A-->B;
+         A-->C;
+         B-->D;
+         C-->D;
+    ```
+    }
     </tbody>
 </table>
 
