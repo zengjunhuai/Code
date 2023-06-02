@@ -127,9 +127,9 @@ flowchart TD;
    <o:lock v:ext="edit" aspectratio="t"/>
   </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:138pt;
    height:26.25pt' o:ole="">
-   <v:imagedata src="test1.files/image001.emz" o:title=""/>
+   <v:imagedata src="static.test.files/image001.emz" o:title=""/>
   </v:shape><![endif]--><![if !vml]><img width=184 height=35
-  src="test1.files/image002.png" v:shapes="_x0000_i1025"><![endif]><!--[if gte mso 9]><xml>
+  src="static.test.files/image002.png" v:shapes="_x0000_i1025"><![endif]><!--[if gte mso 9]><xml>
    <o:OLEObject Type="Embed" ProgID="Visio.Drawing.15" ShapeID="_x0000_i1025"
     DrawAspect="Content" ObjectID="_1747221669">
    </o:OLEObject>
@@ -170,9 +170,9 @@ flowchart TD;
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><!--[if gte vml 1]><v:shape
    id="_x0000_i1026" type="#_x0000_t75" style='width:141.75pt;height:55.5pt'
    o:ole="">
-   <v:imagedata src="test1.files/image003.emz" o:title=""/>
+   <v:imagedata src="test.files/image003.emz" o:title=""/>
   </v:shape><![endif]--><![if !vml]><img width=189 height=74
-  src="test1.files/image004.png" v:shapes="_x0000_i1026"><![endif]><!--[if gte mso 9]><xml>
+  src="test.files/image004.png" v:shapes="_x0000_i1026"><![endif]><!--[if gte mso 9]><xml>
    <o:OLEObject Type="Embed" ProgID="Visio.Drawing.15" ShapeID="_x0000_i1026"
     DrawAspect="Content" ObjectID="_1747221670">
    </o:OLEObject>
