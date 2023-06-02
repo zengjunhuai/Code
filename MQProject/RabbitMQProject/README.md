@@ -24,8 +24,8 @@
 * *Demo2*
 ```mermaid
       flowchart LR;
-           Producer-->    Queue    -->Consumer1;
-                          Queue    -->Consumer2;
+           Producer-->    Queue  -->Consumer1;
+                          Queue  -->Consumer2;
 ```
 | 描述  | 代码      | 参考文档   |
 |    :----:   |          :---: |  :---: |
