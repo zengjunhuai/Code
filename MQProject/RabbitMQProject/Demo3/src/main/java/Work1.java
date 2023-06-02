@@ -2,7 +2,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.DeliverCallback;
 
 public class Work1 {
-    private static final String ACK_QUEUE_NAME="ack_queue";
+    private static final String ACK_QUEUE_NAME="ack_queue1";
     public static void main(String[] args) throws Exception {
         Channel channel = RabbitMqUtils.getChannel();
         System.out.println("C1等待接收消息处理时间较短");

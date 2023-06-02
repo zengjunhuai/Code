@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentNavigableMap;
 import java.util.concurrent.ConcurrentSkipListMap;
 
 public class Task {
-    private static final String TASK_QUEUE_NAME = "ack_queue";
+    private static final String TASK_QUEUE_NAME = "ack_queue1";
     private static final int MESSAGE_COUNT = 1000;
     public static void main(String[] argv) throws Exception {
         //这个消息数量设置为1000好些 不然花费时间太长
