@@ -34,23 +34,23 @@
 * *Demo8*
 ```mermaid
       flowchart LR;
-           Producer --> Exchange_X -- XA/type=direct --> Queue_QA/10s -- YD --> Exchange_Y -- type=direct/YD --> QD -->Consumer;
-                    --> Exchange_X -- XB/type=direct --> Queue_QB/40s -- YD --> Exchange_Y 
+           Producer --> Exchange_X == XA/type=direct --> Queue_QA/10s == YD --> Exchange_Y == type=direct/YD --> QD -->Consumer;
+                    --> Exchange_X == XB/type=direct --> Queue_QB/40s == YD --> Exchange_Y 
 ```
 
 * *Demo9*
 ```mermaid
       flowchart LR;
-           Producer --> Exchange_X -- XA/type=direct --> Queue_QA/10s -- YD --> Exchange_Y -- type=direct/YD --> QD -->Consumer;
-                    --> Exchange_X -- XB/type=direct --> Queue_QB/40s -- YD --> Exchange_Y 
-                    --> Exchange_X -- XC/type=direct --> Queue_QC -- YD --> Exchange_Y 
+           Producer --> Exchange_X == XA/type=direct --> Queue_QA/10s == YD --> Exchange_Y == type=direct/YD --> QD -->Consumer;
+                    --> Exchange_X == XB/type=direct --> Queue_QB/40s == YD --> Exchange_Y 
+                    --> Exchange_X == XC/type=direct --> Queue_QC == YD --> Exchange_Y 
 ```
 
 * *Demo2*
 ```mermaid
       flowchart LR;
-           Producer -- type=direct --> Exchange_X -- XA --> Queue_QA -- YD --> Exchange_Y -- type=direct/YD  -->Consumer;
-                                   --> Exchange_X -- XB --> Queue_QB -- YD --> Exchange_Y 
+           Producer == type=direct --> Exchange_X == XA --> Queue_QA == YD --> Exchange_Y == type=direct/YD  -->Consumer;
+                                   --> Exchange_X == XB --> Queue_QB == YD --> Exchange_Y 
 ```
 
 ### *面试相关*
