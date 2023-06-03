@@ -39,7 +39,7 @@
 * *Demo11/Demo12*
 ```mermaid
       flowchart LR;
-           Producer--> comfirm_exchange-- key1/type=direct-->comfirm_queue--> comfirm consumer;
+           Producer--> comfirm_exchange-- key1/type=direct-->comfirm_queue--> comfirm_consumer;
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
@@ -49,9 +49,9 @@
 * *Demo13*
 ```mermaid
       flowchart LR;
-           Producer-->    comfirm_exchange-- key1/type=direct-->comfirm_queue--> comfirm consumer;
-                          comfirm_exchange-- key1/type=fanout-->backup_queue--> warning consumer;
-                          comfirm_exchange-- key1/type=fanout-->backup_queue--> warning consumer;
+           Producer-->    comfirm_exchange-- key1/type=direct-->comfirm_queue--> comfirm_consumer;
+                          comfirm_exchange-- key1/type=fanout-->backup_queue--> warning_consumer;
+                          comfirm_exchange-- key1/type=fanout-->backup_queue--> warning_consumer;
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
