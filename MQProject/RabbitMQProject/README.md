@@ -39,7 +39,7 @@
 * *Demo11/Demo12*
 ```mermaid
       flowchart LR;
-           Producer-->    comfirm.exchange-- key1/type=direct -->comfirm.queue--> comfirm consumer;
+           Producer-->    comfirm.exchange--key1/type=direct -->comfirm.queue--> comfirm consumer;
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
@@ -49,9 +49,9 @@
 * *Demo13*
 ```mermaid
       flowchart LR;
-           Producer-->    comfirm.exchange-- key1/type=direct -->comfirm.queue--> comfirm consumer;
-                          comfirm.exchange-- key1/type=fanout -->backup.queue--> warning consumer;
-                          comfirm.exchange-- key1/type=fanout -->backup.queue--> warning consumer;
+           Producer-->    comfirm.exchange--key1/type=direct -->comfirm.queue--> comfirm consumer;
+                          comfirm.exchange--key1/type=fanout -->backup.queue--> warning consumer;
+                          comfirm.exchange--key1/type=fanout -->backup.queue--> warning consumer;
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
@@ -72,8 +72,8 @@
 * *Demo7*
 ```mermaid
       flowchart LR;
-           Producer-->    normal.exchange-- zhangsan/type=direct -->normal.queue(消息被拒绝/TTL过期/队列达到最大长度)--> consumer1;
-                                           normal.queue(消息被拒绝/TTL过期/队列达到最大长度)-- 成为死信-->dead_exchange--type=direct/lisi-->dead_queue-->consumer2;                                                                         
+           Producer-->    normal.exchange-- zhangsan/type=direct -->normal_queue-消息被拒绝/TTL过期/队列达到最大长度--> consumer1;
+                                           normal_queue-消息被拒绝/TTL过期/队列达到最大长度-- 成为死信-->dead_exchange--type=direct/lisi-->dead_queue-->consumer2;                                                                         
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
