@@ -1,10 +1,10 @@
 ### *准备工作*
-*本文实验在VMware CentOS7 Minimal中进行，环境搭建可参考文档:*
-_VMware安装：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/rl716034hcmvwgac
-VMware中安装CentOS7 minimal：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/ksydyuewhtux9bg8
-VMware共享文件夹：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/ksydyuewhtux9bg8
-官网地址：https://www.rabbitmq.com/download.html
-安装并登录控制界面：https://www.yuque.com/yuqueyonghu7as8iq/ptfglx/rhgggfukr6tof8gy_
+* *本文实验在VMware CentOS7 Minimal中进行，环境搭建可参考文档:*
+* *VMware安装：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/rl716034hcmvwgac*
+* *VMware中安装CentOS7： minimal：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/ksydyuewhtux9bg8*
+* *VMware共享文件夹：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/ksydyuewhtux9bg8*
+* *官网地址：https://www.rabbitmq.com/download.html*
+* *安装并登录控制界面：https://www.yuque.com/yuqueyonghu7as8iq/ptfglx/rhgggfukr6tof8gy*
 
 ### *实战*
 * *Demo0*
@@ -39,7 +39,7 @@ VMware共享文件夹：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/ksydyuewh
 * *Demo11/Demo12*
 ```mermaid
       flowchart LR;
-           Producer-->    comfirm.exchange-- key1/type=direct -->comfirm.queue-- comfirm consumer;
+           Producer-->    comfirm.exchange-- key1/type=direct -->comfirm.queue--> comfirm consumer;
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
@@ -49,9 +49,9 @@ VMware共享文件夹：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/ksydyuewh
 * *Demo13*
 ```mermaid
       flowchart LR;
-           Producer-->    comfirm.exchange-- key1/type=direct -->comfirm.queue-- comfirm consumer;
-                          comfirm.exchange-- key1/type=fanout -->backup.queue-- warning consumer;
-                          comfirm.exchange-- key1/type=fanout -->backup.queue-- warning consumer;
+           Producer-->    comfirm.exchange-- key1/type=direct -->comfirm.queue--> comfirm consumer;
+                          comfirm.exchange-- key1/type=fanout -->backup.queue--> warning consumer;
+                          comfirm.exchange-- key1/type=fanout -->backup.queue--> warning consumer;
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
@@ -60,9 +60,8 @@ VMware共享文件夹：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/ksydyuewh
 * *Demo4/Demo5/Demo6*
 ```mermaid
       flowchart LR;
-           Producer-->    comfirm.exchange-- key1/type=direct -->comfirm.queue-- comfirm consumer;
-                          comfirm.exchange-- key1/type=fanout -->backup.queue-- warning consumer;
-                          comfirm.exchange-- key1/type=fanout -->backup.queue-- warning consumer;
+           Producer-->    exchange-- key/type=direct/fanout/topics-->queue1--> consumer1;
+                          exchange-- key/type=direct/fanout/topics-->queue2--> consumer2;
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
@@ -73,9 +72,8 @@ VMware共享文件夹：https://www.yuque.com/yuqueyonghu7as8iq/ba4g89/ksydyuewh
 * *Demo7*
 ```mermaid
       flowchart LR;
-           Producer-->    comfirm.exchange-- key1/type=direct -->comfirm.queue-- comfirm consumer;
-                          comfirm.exchange-- key1/type=fanout -->backup.queue-- warning consumer;
-                          comfirm.exchange-- key1/type=fanout -->backup.queue-- warning consumer;
+           Producer-->    normal.exchange-- zhangsan/type=direct -->normal.queue(消息被拒绝/TTL过期/队列达到最大长度)--> consumer1;
+                                           normal.queue(消息被拒绝/TTL过期/队列达到最大长度)-- 成为死信-->dead_exchange--type=direct/lisi-->dead_queue-->consumer2;                                                                         
 ```
 | 描述  | 优化  | 代码      | 参考文档   |
 |    :----:   |    :----:   |          :---: |  :---: |
