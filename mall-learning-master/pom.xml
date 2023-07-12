@@ -10,6 +10,34 @@
 
     <modules>
         <module>mall-tiny</module>
+        <module>mall-tiny-01</module>
+        <module>mall-tiny-02</module>
+        <module>mall-tiny-03</module>
+        <module>mall-tiny-04</module>
+        <module>mall-tiny-05</module>
+        <module>mall-tiny-06</module>
+        <module>mall-tiny-07</module>
+        <module>mall-tiny-08</module>
+        <module>mall-tiny-09</module>
+        <module>mall-tiny-aop</module>
+        <module>mall-tiny-apm</module>
+        <module>mall-tiny-arthas</module>
+        <module>mall-tiny-arthas2</module>
+        <module>mall-tiny-boot</module>
+        <module>mall-tiny-delay</module>
+        <module>mall-tiny-deploy</module>
+        <module>mall-tiny-devtools</module>
+        <module>mall-tiny-docker</module>
+        <module>mall-tiny-docker-compose</module>
+        <module>mall-tiny-docker-file</module>
+        <module>mall-tiny-docker-plugin</module>
+        <module>mall-tiny-drone</module>
+        <module>mall-tiny-dynamic-sql</module>
+        <module>mall-tiny-easyes</module>
+        <module>mall-tiny-easyexcel</module>
+        <module>mall-tiny-easypoi</module>
+        <module>mall-tiny-elk</module>
+        <module>mall-tiny</module>
     </modules>
 
 </project>

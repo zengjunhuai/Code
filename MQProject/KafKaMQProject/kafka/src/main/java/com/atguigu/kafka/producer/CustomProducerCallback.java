@@ -12,7 +12,7 @@ public class CustomProducerCallback {
         Properties properties = new Properties();
 
         // 连接集群 bootstrap.servers
-        properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"hadoop102:9092,hadoop103:9092");
+        properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"192.168.8.66:9092,192.168.8.64:9092,192.168.8.65:9092");
 
         // 指定对应的key和value的序列化类型 key.serializer
 //        properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,"org.apache.kafka.common.serialization.StringSerializer");
@@ -25,7 +25,7 @@ public class CustomProducerCallback {
 
         // 2 发送数据
         for (int i = 0; i < 500; i++) {
-            kafkaProducer.send(new ProducerRecord<>("first", "atguigu" + i), new Callback() {
+            kafkaProducer.send(new ProducerRecord<>("first", "hello" + i), new Callback() {
                 @Override
                 public void onCompletion(RecordMetadata metadata, Exception exception) {
 

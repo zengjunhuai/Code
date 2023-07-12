@@ -119,6 +119,21 @@
 |    :----:   |    :----:   |          :---: |  :---: |
 | 优先级 | 特点：设置消息和队列优先级  |[代码]()| [参考文档](https://www.yuque.com/yuqueyonghu7as8iq/ptfglx/wlsly140dck5wza2) |
 
+* *Demo15*
+```mermaid
+      flowchart LR;
+           Producer-->queue-->Consumer;                             
+```
+| 描述  | 优化  | 代码      | 参考文档   |
+|    :----:   |    :----:   |          :---: |  :---: |
+| RabbitMQ集群 | 特点：设置消息和队列优先级  |[代码]()| [参考文档](https://www.yuque.com/yuqueyonghu7as8iq/ptfglx/wlsly140dck5wza2) |
+
+### *集群实战 nginx+docker+Kafka*
+*nginx笔记资料参考：*
+*docker笔记资料参考：*
+
+
+
 ### *面试相关*
 
 

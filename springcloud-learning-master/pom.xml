@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.macro.cloud</groupId>
+    <artifactId>springcloud-learning</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>eureka-client</module>
+        <module>eureka-security-server</module>
+        <module>eureka-server</module>
+        <module>consul-ribbon-service</module>
+        <module>user-service</module>
+        <module>hystrix-service</module>
+        <module>hystrix-dashboard</module>
+        <module>turbine-service</module>
+        <module>hystrix-dashboard</module>
+        <module>consul-user-service</module>
+        <module>feign-service</module>
+        <module>zuul-proxy</module>
+        <module>config-security-server</module>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>api-gateway</module>
+        <module>ribbon-service</module>
+        <module>oauth2-client</module>
+        <module>oauth2-jwt-server</module>
+    </modules>
+
+</project>

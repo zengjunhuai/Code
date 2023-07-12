@@ -11,5 +11,26 @@
 
     <artifactId>ActiveMQProject</artifactId>
 
+    <modules>
+        <module>activemq_demo</module>
+        <module>boot_mq_consummer</module>
+        <module>boot_mq_produce</module>
+        <module>boot_mq_topic_consummer</module>
+        <module>boot_mq_topic_produce</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-all</artifactId>
+            <version>5.15.11</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.xbean/xbean-spring -->
+        <dependency>
+            <groupId>org.apache.xbean</groupId>
+            <artifactId>xbean-spring</artifactId>
+            <version>4.15</version>
+        </dependency>
+    </dependencies>
 
 </project>

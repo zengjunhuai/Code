@@ -18,7 +18,7 @@ public class CustomConsumerByHandSync {
         Properties properties = new Properties();
 
         // 连接 bootstrap.servers
-        properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,"hadoop102:9092,hadoop103:9092");
+        properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,"192.168.8.66:9092,192.168.8.65:9092,192.168.8.64:9092");
 
         // 反序列化
         properties.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());

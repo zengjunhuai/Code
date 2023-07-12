@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Demo10" />
         <module name="Demo14" />
         <module name="Demo13" />
         <module name="Demo8" />
@@ -18,21 +17,35 @@
         <module name="Demo3" />
         <module name="Demo2" />
         <module name="Demo1" />
+        <module name="activemq_demo" />
         <module name="springboot-kafka" />
         <module name="spark-kafka" />
         <module name="ActiveMQProject" />
+        <module name="boot_mq_consummer (1)" />
         <module name="RocketMQProject" />
         <module name="Demo9" />
         <module name="Demo11" />
+        <module name="Demo10" />
         <module name="Demo12" />
+        <module name="boot_mq_topic_produce" />
         <module name="kafka" />
+        <module name="boot_mq_produce" />
         <module name="KafKaMQProject" />
         <module name="Hellow World" />
+      </profile>
+      <profile name="Annotation profile for MQProject" enabled="true">
+        <sourceOutputDir name="../boot_mq_consummer/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../boot_mq_consummer/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot_mq_consummer (2)" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot_mq_consummer (2)" options="-parameters" />
+      <module name="boot_mq_produce" options="-parameters" />
+      <module name="boot_mq_topic_produce" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
     </option>
   </component>
